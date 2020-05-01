@@ -1,16 +1,214 @@
 .App {
   text-align: center;
+  background-color: #282b38;
+  color: lightblue;
+}
+
+textarea {
+  cursor: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  /* margin-right: 3px; */
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffbf00;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
+html {
+  background-color: #282b38;
+}
+
+.field {
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 0;
+  outline: none;
+  height: 30px;
+  text-align: center;
+  color: #9a9a9a;
+  width: 100px;
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 0;
+}
+
+select {
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 0;
+  outline: none;
+  height: auto;
+  text-align: center;
+  color: #9a9a9a;
+  width: auto;
+  font-size: 16px;
+  margin: 8px 0;
+  height: 40px;
+  text-align: center;
+  padding: 3px;
+}
+
+option {
+  background-color: #282b38;
+}
+
+.input-label-group {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #ffbf00;
+  height: 20px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  clear: both;
+  float: left;
+  margin-right: 0px;
+}
+
+input {
+  height: 20px;
+  width: 150px !important;
+  border: 1px solid #9a9a9a;
+  margin-top: 10px;
+  float: left;
+}
+
+/*Navbar*/
+.vertical-menu {
+  width: 4%; /* Set a width if you like */
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #2f3445;
+  overflow-x: hidden;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #2f3445;
+  height: 550px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.menu-container button {
+  /* Grey background color */
+  color: rgb(198, 198, 198); /* Black text color */
+  display: block; /* Make the links appear below each other */
+  text-decoration: none; /* Remove underline from links */
+  background-color: #2f3445;
+  border: none;
+}
+
+.menu-container button i {
+  font-size: 24px;
+}
+
+.menu-container button:hover {
+  /* background-color: white; */
+  color: #68ddeb; /* Dark grey background on mouse-over */
+}
+
+.menu-container button .active {
+  /* background-color: white; Add a green color to the "active/current" link */
+  color: #68ddeb;
+}
+
+.param-header {
+  color: #68ddeb;
+  margin-top: 10px;
+}
+
+.lang-active {
+  color: #ffbf00 !important;
+}
+
+pre {
+  height: 335px;
+  border: 15px solid #2f3445;
+}
+
+.language-option {
+  background-color: #2f3445;
+  color: white;
+  border: none;
+  margin-left: 40px;
+}
+
+.main-section {
+  width: 1350px;
+  margin-top: 50px;
+}
+
+.code-param-section {
+  float: left;
+  width: 540px;
+  margin-left: 90px;
+  margin-right: 10px;
+}
+
+.param-section {
+  width: 540px;
+  height: 190px;
+  border: 15px solid #2f3445;
+  color: lightblue;
+  margin-bottom: 18px;
+}
+
+.code-section {
+  margin-top: 3px;
+}
+
+.visualizer-section {
+  float: left;
+  width: 690px;
+  height: 545px;
+  background-color: #282b38;
+  border: 15px solid #2f3445;
+  color: lightblue;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.App {
+  text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,14 +223,5 @@
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #09d3ac;
 }

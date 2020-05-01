@@ -1,0 +1,12 @@
+#ds-dropdown {
+    margin-top: 8px;
+    width: auto;
+}
+
+.ds-body {
+    margin-top: 0px;
+}
+
+#ds-dropdown-body {
+    margin-top: 0px !important;
+}

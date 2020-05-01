@@ -1,0 +1,10 @@
+.tmp-section {
+    float: left;
+    width: 690px;
+    height: 545px;
+    background-color: #282b38;
+    border: 15px solid #2f3445;
+    color: lightblue;
+    margin-left: 300px;
+    margin-right: 0px;
+}

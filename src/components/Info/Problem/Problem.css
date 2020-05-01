@@ -1,0 +1,25 @@
+.exp-active{
+    color: orange;
+}
+
+.problem{
+    height: auto;
+    width: auto;
+    overflow-x: auto;
+    background-color: #2f3445;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.prob-link{
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    color: #13c6e9;
+    font-size: 18px;
+}
+
+.prob-link:hover{
+    text-decoration: none;
+    color: #ffbf00;
+}

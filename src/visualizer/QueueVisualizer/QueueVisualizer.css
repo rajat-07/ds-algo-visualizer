@@ -1,0 +1,113 @@
+.stack {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 400px;
+  width: 220px;
+  /* margin-left: 250px; */
+  border-left: 10px solid lightblue;
+  border-right: 10px solid lightblue;
+  border-bottom: 10px solid lightblue;
+}
+
+/* .stack-item{
+   position: absolute; 
+      height: 45px;
+      width: 190px;
+      margin: 6px;
+      background-color: turquoise;
+      color: gray;
+  } */
+
+.queue-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.queue-container .queue-holder {
+  border: 20px solid #444857;
+  border-top: 0;
+  border-bottom: 0;
+  overflow: auto;
+  height: 90%;
+  width: 250px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
+.queue-container .queue-holder .queue-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 15px;
+  overflow: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.queue-container .queue-holder .queue-items .queue-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  color: #f5f6fa;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-animation-name: push;
+  animation-name: push;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+.queue-container .queue-holder .queue-items .queue-item:first-child {
+  margin-top: 0;
+}
+.queue-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 120px;
+  height: 100%;
+}
+.queue-grid .queue-grid-col {
+  min-height: 100%;
+  margin-left: 100px;
+  margin-top: -120px;
+}
+.queue-item {
+  height: 50px !important;
+}
+.queue-item:nth-child(even) {
+  background-color: #ffbf00;
+}
+.queue-item:nth-child(odd) {
+  background-color: #13c6e9;
+}
+
+.rotated {
+  transform: rotate(90deg);
+}

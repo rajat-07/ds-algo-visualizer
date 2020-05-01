@@ -1,0 +1,92 @@
+#lang-dropdown {
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.lang-params{
+    float: left;
+}
+
+.operation-params{
+    float: left;
+}
+
+.ace-monokai .ace_gutter {
+    background: #2f3445;
+    color: #8F908A;
+}
+
+.ace-monokai .ace_gutter-active-line {
+    background-color: #282b38;
+}
+
+.code-editor-wrapper {
+    float: left;
+}
+
+.std-in-out {
+    width: 300px;
+    float: left;
+}
+
+.std-in {
+    width: 390px;
+    height: 210px;
+    background-color: #282b38;
+    color: lightblue;
+    margin: 5px;
+    border: 25px solid #2f3445;
+    margin-bottom: 20px;
+}
+
+.std-out {
+    width: 390px;
+    height: 210px;
+    background-color: #282b38;
+    color: lightblue;
+    margin: 5px;
+    border: 25px solid #2f3445;
+}
+
+#editor {
+    height: 510px;
+    border-radius: 25px;
+    border: 20px solid #2f3445;
+    padding: 10px;
+}
+
+.main-code-editor {
+    width: 650px !important;
+    height: 440px !important;
+    background-color: #282b38;
+    border: 2px solid #0bacd3;
+    margin: 3px;
+}
+
+.btn-sky {
+    margin-left: 480px;
+    margin-top: 30px;
+    height: 30px;
+    width: 80px !important;
+	color: #fff;
+	background-color: #0bacd3;
+	border-bottom:2px solid #098aa9;
+}
+
+#std_input {
+    width: 320px;
+    height: 100px;
+    background-color: #282b38;
+    border: 2px solid #0bacd3;
+    color: #9a9a9a;
+    text-decoration: none !important;
+}
+
+#std_output {
+    width: 320px;
+    height: 100px;
+    background-color: #282b38;
+    border: 2px solid #0bacd3;
+    color: #9a9a9a;
+    text-decoration: none !important;
+}

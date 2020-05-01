@@ -1,0 +1,25 @@
+#stack-dropdown {
+  height: 35px;
+  width: 200px;
+  margin: 10px;
+}
+
+.static-code-editor {
+  width: 495px !important;
+  height: 250px !important;
+  background-color: #282b38;
+  border: 2px solid #0bacd3;
+  margin: 5px;
+}
+
+.lang-section {
+  margin: 5px;
+}
+
+/* .ace_scrollbar-h {
+  height: 10px;
+}
+
+.ace_scrollbar-v {
+  width: 5px;
+} */

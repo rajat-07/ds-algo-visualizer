@@ -1,0 +1,45 @@
+.prob-title-wrapper {
+    height: auto;
+    color: lightblue;
+}
+
+.prob-ques-wrapper {
+    height: auto;
+    color: lightblue;
+}
+
+.code-editor-wrapper {
+    float: left;
+}
+
+.prob-editor {
+    width: 520px !important;
+    height: 440px !important;
+    background-color: #282b38;
+    border: 2px solid #0bacd3;
+    margin: 10px;
+}
+
+.replacement_marker {
+    position: absolute;
+    /* background-color: rgba(165, 161, 172, 0.5); */
+    background-color: #135564;
+}
+
+.prob-explanation {
+    width: 520px !important;
+    height: 440px !important;
+    border: 2px solid #47FFFF;
+    /* margin-top: 3px;
+    margin-left: 5px; */
+    margin: 10px;
+    float: left;
+}
+
+.prob-exp-body {
+    border: 15px solid #2f3445;
+}
+
+.exp-active{
+    color: orange;
+}

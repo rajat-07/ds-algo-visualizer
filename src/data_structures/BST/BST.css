@@ -1,0 +1,57 @@
+.node {
+  cursor: pointer;
+}
+
+.overlay {
+  background-color: #eee;
+}
+
+/* .nodeBase circle {
+  fill: #13c6e9;
+  stroke: #2f3445;
+  stroke-width: 1.5px;
+} */
+
+/* .leafNodeBase circle{
+  fill: #13c6e9;
+  stroke: #2f3445;
+  stroke-width: 1.5px;
+} */
+
+.nodeNameBase{
+ fill: #fff !important;
+ stroke: #fff !important;
+}
+
+.linkBase{
+ stroke: #ffbf00  !important;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.templink {
+  fill: none;
+  stroke: red;
+  stroke-width: 3px;
+}
+
+.ghostCircle.show {
+  display: block;
+}
+
+.ghostCircle,
+.activeDrag .ghostCircle {
+  display: none;
+}
+
+.bstInsertIp{
+ margin-left: 100px;
+}
